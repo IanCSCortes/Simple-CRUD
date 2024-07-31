@@ -1,0 +1,273 @@
+CRITICAL - 2024-07-31 01:27:14 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\Student"
+[Method: POST, Route: students]
+in SYSTEMPATH\Model.php on line 824.
+ 1 SYSTEMPATH\Model.php(824): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Student')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Student.php(36): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Student->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\public\\index.php')
+CRITICAL - 2024-07-31 01:28:05 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: students]
+in SYSTEMPATH\BaseModel.php on line 826.
+ 1 SYSTEMPATH\BaseModel.php(826): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Student.php(36): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Student->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\public\\index.php')
+CRITICAL - 2024-07-31 01:33:52 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: PUT, Route: students/2]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Student.php(55): CodeIgniter\Model->update('2', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Student->update('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\public\\index.php')
+CRITICAL - 2024-07-31 02:17:29 --> ErrorException: Attempt to read property "email" on null
+[Method: POST, Route: authenticate/token]
+in APPPATH\Controllers\Authenticate.php on line 30.
+ 1 APPPATH\Controllers\Authenticate.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on null', 'C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\app\\Controllers\\Authenticate.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authenticate->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\public\\index.php')
+CRITICAL - 2024-07-31 02:17:49 --> ErrorException: Attempt to read property "email" on null
+[Method: POST, Route: authenticate/token]
+in APPPATH\Controllers\Authenticate.php on line 30.
+ 1 APPPATH\Controllers\Authenticate.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on null', 'C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\app\\Controllers\\Authenticate.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authenticate->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\public\\index.php')
+CRITICAL - 2024-07-31 02:18:38 --> ErrorException: Attempt to read property "email" on array
+[Method: POST, Route: authenticate/token]
+in APPPATH\Controllers\Authenticate.php on line 30.
+ 1 APPPATH\Controllers\Authenticate.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on array', 'C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\app\\Controllers\\Authenticate.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authenticate->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\public\\index.php')
+CRITICAL - 2024-07-31 02:19:44 --> ErrorException: Attempt to read property "email" on array
+[Method: POST, Route: authenticate/token]
+in APPPATH\Controllers\Authenticate.php on line 30.
+ 1 APPPATH\Controllers\Authenticate.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on array', 'C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\app\\Controllers\\Authenticate.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authenticate->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\public\\index.php')
+CRITICAL - 2024-07-31 02:21:15 --> ErrorException: Attempt to read property "email" on array
+[Method: POST, Route: authenticate/token]
+in APPPATH\Controllers\Authenticate.php on line 28.
+ 1 APPPATH\Controllers\Authenticate.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on array', 'C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\app\\Controllers\\Authenticate.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authenticate->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\public\\index.php')
+CRITICAL - 2024-07-31 02:21:46 --> ErrorException: Attempt to read property "email" on array
+[Method: POST, Route: authenticate/token]
+in APPPATH\Controllers\Authenticate.php on line 28.
+ 1 APPPATH\Controllers\Authenticate.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on array', 'C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\app\\Controllers\\Authenticate.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authenticate->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\public\\index.php')
+CRITICAL - 2024-07-31 02:24:16 --> ErrorException: Attempt to read property "email" on array
+[Method: POST, Route: authenticate/token]
+in APPPATH\Controllers\Authenticate.php on line 28.
+ 1 APPPATH\Controllers\Authenticate.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on array', 'C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\app\\Controllers\\Authenticate.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authenticate->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\public\\index.php')
+CRITICAL - 2024-07-31 02:25:53 --> ErrorException: Attempt to read property "email" on array
+[Method: POST, Route: authenticate/token]
+in APPPATH\Controllers\Authenticate.php on line 28.
+ 1 APPPATH\Controllers\Authenticate.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on array', 'C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\app\\Controllers\\Authenticate.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authenticate->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\public\\index.php')
+CRITICAL - 2024-07-31 02:28:44 --> ErrorException: Attempt to read property "password_hash" on array
+[Method: POST, Route: authenticate/token]
+in APPPATH\Controllers\Authenticate.php on line 34.
+ 1 APPPATH\Controllers\Authenticate.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password_hash" on array', 'C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\app\\Controllers\\Authenticate.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authenticate->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\public\\index.php')
+CRITICAL - 2024-07-31 02:29:00 --> ErrorException: Attempt to read property "password" on array
+[Method: POST, Route: authenticate/token]
+in APPPATH\Controllers\Authenticate.php on line 34.
+ 1 APPPATH\Controllers\Authenticate.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\app\\Controllers\\Authenticate.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authenticate->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\public\\index.php')
+CRITICAL - 2024-07-31 02:29:14 --> ErrorException: Attempt to read property "id" on array
+[Method: POST, Route: authenticate/token]
+in APPPATH\Controllers\Authenticate.php on line 42.
+ 1 APPPATH\Controllers\Authenticate.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\app\\Controllers\\Authenticate.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authenticate->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\public\\index.php')
+ERROR - 2024-07-31 10:46:08 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'delta_global_st...', 3306, '', 0)
+#1 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\app\Models\User.php(52): CodeIgniter\BaseModel->first()
+#7 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\app\Controllers\Authenticate.php(28): App\Models\User->getByEmail('sasasasa@sasa.c...')
+#8 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\CodeIgniter.php(933): App\Controllers\Authenticate->index()
+#9 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+#10 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\rewrite.php(44): require_once('C:\\Users\\Sonny\\...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\app\Models\User.php(52): CodeIgniter\BaseModel->first()
+#6 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\app\Controllers\Authenticate.php(28): App\Models\User->getByEmail('sasasasa@sasa.c...')
+#7 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\CodeIgniter.php(933): App\Controllers\Authenticate->index()
+#8 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+#9 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\rewrite.php(44): require_once('C:\\Users\\Sonny\\...')
+#14 {main}
+CRITICAL - 2024-07-31 10:46:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: authenticate/token]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\User.php(52): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\Authenticate.php(28): App\Models\User->getByEmail('sasasasa@sasa.com')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authenticate->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\api\\public\\index.php')
+ERROR - 2024-07-31 10:46:39 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'delta_global_st...', 3306, '', 0)
+#1 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\app\Models\User.php(52): CodeIgniter\BaseModel->first()
+#7 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\app\Controllers\Authenticate.php(28): App\Models\User->getByEmail('sasasa@sasa.com')
+#8 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\CodeIgniter.php(933): App\Controllers\Authenticate->index()
+#9 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+#10 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\rewrite.php(44): require_once('C:\\Users\\Sonny\\...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\app\Models\User.php(52): CodeIgniter\BaseModel->first()
+#6 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\app\Controllers\Authenticate.php(28): App\Models\User->getByEmail('sasasa@sasa.com')
+#7 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\CodeIgniter.php(933): App\Controllers\Authenticate->index()
+#8 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+#9 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Sonny\Desktop\avaliacao-ian-cortes-delta-global\api\system\rewrite.php(44): require_once('C:\\Users\\Sonny\\...')
+#14 {main}
+CRITICAL - 2024-07-31 10:46:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: authenticate/token]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\User.php(52): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\Authenticate.php(28): App\Models\User->getByEmail('sasasa@sasa.com')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Authenticate->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authenticate))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Sonny\\Desktop\\avaliacao-ian-cortes-delta-global\\api\\public\\index.php')
