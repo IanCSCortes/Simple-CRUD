@@ -1,4 +1,4 @@
-# Gestão de Alunos (Delta Student)
+# Gestão de Alunos
 
 Este projeto é uma aplicação CRUD (Create, Read, Update, Delete) para a gestão de alunos.
 
